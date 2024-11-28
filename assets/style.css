@@ -1,21 +1,7 @@
-paleta{
-    color: #03045E
-    #023E8A
-    #0077B6
-    #0096C7
-    #00B4D8
-    #48CAE4
-    #90E0EF
-    #ADE8F4
-    #CAF0F8 ;
-
-}
-
 body{
     font-family: "Josefin Sans", sans-serif;
     font-size: 1.2rem;
 }
-
 
 
 /* menu */
@@ -52,7 +38,7 @@ header {
 }
 
 section{
-  scroll-margin-top: 90px; /* Altura do header */
+  scroll-margin-top: 90px; 
 
 }
 .sessao{
@@ -124,7 +110,7 @@ section{
 }
 
  /* ícone */
- .scroll-down {
+.scroll-down {
   position: absolute;
   bottom: 20px;
   left: 54%;
@@ -162,7 +148,7 @@ section{
 
 /* sobre */
 .accordion-item {
-  border: 1px solid #ddd; /* Borda mais suave */
+  border: 1px solid #ddd; 
   margin-bottom: 10px;
 }
 
@@ -201,7 +187,7 @@ section{
   text-decoration: underline;
 }
 
- 
+
 /* análise */
 .btn-custom {
   background-color: #ffaa00;
@@ -212,6 +198,14 @@ section{
 
 .btn-custom:hover {
   background-color: #cc8800;
+}
+
+.imggraficos{
+  width: 100%;
+  transition: transform 0.2s ease-in-out;
+}
+.imggraficos:hover{
+  transform: scale(1.04);
 }
 
 
@@ -258,7 +252,3 @@ footer {
   padding: 2rem 0;
 }
     
-/* footer a {
-  color: #ffaa00;
-}
-     */

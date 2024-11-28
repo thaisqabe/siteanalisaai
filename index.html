@@ -54,8 +54,6 @@
       <div class="container">
         <h2>AnalisaAI: Saúde e Bem-Estar</h2>
         <p>Nossa pesquisa foca na análise de fatores relacionados ao suicídio, buscando entender padrões.</p>
-        <!-- <a href="#sobre" class="btn btn-custom">Saiba Mais</a>
-        <a href="#visualizacoes" class="btn btn-outline-primary mx-2">Ver Visualizações</a> -->
         <div class="scroll-down">
           <span class="arrow"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
@@ -91,11 +89,6 @@
                   </div>
                 </div>
               </div>
-          <!-- <ul>
-            <li>Taxas de suicídio por faixa etária</li>
-            <li>Diferenças regionais</li>
-            <li>Impacto socioeconômico</li>
-          </ul> -->
         </div>
         </div>
         <div class="col-md-6">
@@ -109,13 +102,14 @@
   <section id="analise" class="sessao bg-light">
     <div class="container">
       <h2 class="section-title text-center">Análise</h2>
+      <p class="text-center">Nossa análise é sobre a base de dados "Dados de Suicídio no Brasil 2014 a 2018", que pode ser encontrada no <a class="linkinfo" target="_blank" href="https://www.kaggle.com/datasets/psicodata/dados-de-suicdio-no-brasil-2014-a-2018"><strong>Kaggle.</strong></a></p>
       <div class="row">
         <div class="col-md-4">
           <div class="card">
-            <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Gráfico">
+            <img src="assets/img/grafico.png" class="card-img-top" alt="Gráfico">
             <div class="card-body">
-              <h5 class="card-title">Taxa de Suicídios por Idade</h5>
-              <p class="card-text">Análise das taxas de suicídio por diferentes faixas etárias.</p>
+              <h5 class="card-title">Distribuição Etária - Homens vs Mulheres</h5>
+              <p class="card-text">Análise das taxas de suicídio por diferentes faixas etárias e gênero.</p>
               <button type="button" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#modalgrafico">
                 Ver Gráfico
               </button>
@@ -124,10 +118,10 @@
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Gráfico">
+            <img src="assets/img/grafico2.png" class="card-img-top" alt="Gráfico">
             <div class="card-body">
-              <h5 class="card-title">Comparação por País</h5>
-              <p class="card-text">Diferenças regionais nas taxas de suicídio.</p>
+              <h5 class="card-title">Distribuição dos Locais de Ocorrência de Óbitos</h5>
+              <p class="card-text">Análise dos locais em que existem mais ocorrências de suícidio.</p>
               <button type="button" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#modalgrafico2">
                 Ver Gráfico
               </button>            
@@ -136,10 +130,10 @@
         </div>
         <div class="col-md-4">
           <div class="card">
-            <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Gráfico">
+            <img src="assets/img/grafico3.png" class="card-img-top" alt="Gráfico">
             <div class="card-body">
-              <h5 class="card-title">Tendências ao Longo do Tempo</h5>
-              <p class="card-text">Mudanças nas taxas de suicídio ao longo das últimas décadas.</p>
+              <h5 class="card-title">Distribuição de Ocupação por Nível Educacional</h5>
+              <p class="card-text">Análise da ocupação e a quantidade de anos que as pessoas passaram estudando.</p>
               <button type="button" class="btn btn-custom" data-bs-toggle="modal" data-bs-target="#modalgrafico3">
                 Ver Gráfico
               </button>            
@@ -154,24 +148,24 @@
   <section id="principais" class="sessao">
     <div class="container">
       <h2 class="section-title text-center">Pontos Principais</h2>
-      <p class="text-center">Alguns pontos que se destacaram em nossa análise.</p>
+      <p class="text-center">Conclusões que se destacaram em nossa análise.</p>
       <div class="row">
         <div class="col-md-4">
           <div class="card p-3">
-            <h5>Fator Econômico</h5>
-            <p>Países com maior desigualdade têm taxas mais altas de suicídio.</p>
+            <h5>Ocupação</h5>
+            <p>Pessoas desempregadas possuem mais ocorrências de suicídio</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card p-3">
             <h5>Diferença de Gênero</h5>
-            <p>Homens são mais propensos ao suicídio, mas mulheres têm maior taxa de tentativas.</p>
+            <p>Homens têm mais ocorrências de suícidio em relação com as mulheres.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="card p-3">
-            <h5>Impacto da Saúde Mental</h5>
-            <p>Depressão e ansiedade são os principais fatores associados ao suicídio.</p>
+            <h5>Faixa Etária</h5>
+            <p>A maioria das pessoas que cometem suicídio são adultas.</p>
           </div>
         </div>
       </div>
@@ -185,7 +179,6 @@
       <h2 class="section-title text-center mb-5">Conheça a Equipe</h2>
 
       <div class="row">
-        <!-- Integrante 1 -->
         <div class="col-md-6 col-lg-3 mb-4">
           <div class="card h-100 text-center cardequipe">
             <img class="imgequipe" src="assets/img/enzo.png" alt="Foto do Integrante 1" class="card-img-top" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
@@ -195,7 +188,6 @@
             </div>
           </div>
         </div>
-        <!-- Integrante 2 -->
         <div class="col-md-6 col-lg-3 mb-4">
           <div class="card h-100 text-center cardequipe">
             <img class="imgequipe" src="assets/img/caspirro.png" alt="Foto do Integrante 2" class="card-img-top" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
@@ -205,7 +197,6 @@
             </div>
           </div>
         </div>
-        <!-- Integrante 3 -->
         <div class="col-md-6 col-lg-3 mb-4">
           <div class="card h-100 text-center cardequipe">
             <img class="imgequipe" src="assets/img/thais.png" alt="Foto do Integrante 3" class="card-img-top" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
@@ -215,7 +206,6 @@
             </div>
           </div>
         </div>
-        <!-- Integrante 4 -->
         <div class="col-md-6 col-lg-3 mb-4">
           <div class="card h-100 text-center cardequipe">
             <img class="imgequipe" src="assets/img/vitor.png" alt="Foto do Integrante 4" class="card-img-top" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
@@ -227,10 +217,9 @@
         </div>
       </div>
       
-      <!-- Orientador -->
       <div class="text-center mb-5">
         <div class="card mx-auto cardori cardequipe">
-          <img class="imgequipe" src="https://via.placeholder.com/400x300" alt="Foto do Orientador" class="card-img-top" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
+          <img class="imgequipe" src="assets/img/anderson.png" alt="Foto do Orientador" class="card-img-top" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
           <div class="card-body">
             <h4 class="card-title">Anderson Vanin</h4>
             <p class="card-text">Orientador</p>
@@ -249,7 +238,6 @@
         <table class="table table-bordered">
           <thead class="thead-dark">
             <tr>
-             
               <th>Nome</th>
               <th>Email</th>
             </tr>
@@ -257,7 +245,7 @@
           <tbody>
             <tr>
               <td>Anderson Vanin</td>
-              <td><strong>orientador@email.com</strong></td>
+              <td><strong>anderson.vanin@etec.sp.gov.br</strong></td>
             </tr>
             <tr>
               <td>Enzo Caetano Peracio</td>
@@ -265,7 +253,7 @@
             </tr>
             <tr>
               <td>Gabriel Caspirro</td>
-              <td><strong>integrante2@email.com</strong></td>
+              <td><strong>gabriel.demarchi@etec.sp.gov.br</strong></td>
             </tr>
             <tr>
               <td>Thaís Abe</td>
@@ -273,7 +261,7 @@
             </tr>
             <tr>
               <td>Vitor Lopes</td>
-              <td><strong>integrante4@email.com</strong></td>
+              <td><strong>vitor.lopes62@etec.sp.gov.br</strong></td>
             </tr>
           </tbody>
         </table>
@@ -289,18 +277,15 @@
 
 <!-- Modal -->
 <div class="modal fade" id="modalgrafico" tabindex="-1" aria-labelledby="modalgrafico" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Mohyhyhy</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Distribuição Etária - Homens vs Mulheres</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <img class="imggraficos" src="assets/img/graficoetgen.jpg" alt="">
+        <p><br>As mulheres tendem a cometer suicídio até os 19 anos, ao contrário dos homens, que cometem suicídio após essa idade.</p>
       </div>
     </div>
   </div>
@@ -308,37 +293,33 @@
 
 <!-- Modal -->
 <div class="modal fade" id="modalgrafico2" tabindex="-1" aria-labelledby="modalgrafico2" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Distribuição dos Locais de Ocorrência de Óbitos</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <img class="imggraficos" src="assets/img/graficolocalobitos.png" alt="">
+        <p><br>Mais de 62% das pessoas vieram a óbito em domicílio.</p>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+      
     </div>
   </div>
 </div>
 
 <!-- Modal -->
 <div class="modal fade" id="modalgrafico3" tabindex="-1" aria-labelledby="modalgrafico3" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modvvbb</h1>
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Distribuição de Ocupação por Nível Educacional</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <img class="imggraficos" src="assets/img/graficoocup.png" alt="">
+        <p><br>Ocupações que exigem maior qualificação, como "Saúde", "Direito/administracao" e "Educação", apresentam menos casos.</p>
+          <p>Enquanto isso, ocupações com menor escolaridade, como "Desempregados/Inativos", "Agropecuária" e "Construção Civil", registram um maior número de casos de suicídio.</p>
       </div>
     </div>
   </div>
